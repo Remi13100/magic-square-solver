@@ -1,0 +1,36 @@
+{
+  "name": "@remi_bse/magic-square-solver",
+  "version": "1.0.0",
+  "author": "Rémi Boissise <developer.remi@gmail.com>",
+  "description": "Magic square solver",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "pack": "tsc && npm pack",
+    "test": "mocha -r ts-node/register tests/**/*.test.ts",
+    "testWithCoverage": "nyc -r lcov -e .ts -x \"*.test.ts\" mocha -r ts-node/register tests/**/*.test.ts && nyc report"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^2.9.2"
+  },
+  "license": "ISC",
+  "keywords": [
+      "magic-square",
+      "square",
+      "magicsquare",
+      "mathematics",
+      "carré magique",
+      "mathématiques",
+      "mathematique"
+  ]
+}
