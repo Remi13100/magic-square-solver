@@ -22,9 +22,9 @@ var square = {
     dimension : 3
 };
 
-var mySquare = new mss(square);
+var mss = new mss(square);
 
-var result = verify.check();
+var result = mss.check();
 
 ```
 ```sh
