@@ -8,7 +8,7 @@ This module makes it possible to check if a matrix is a magic square or not. As 
 
 ## Installation 
 ```sh
-npm install @remi_bse/magic-square-solver --save
+npm install magic-square-solver --save
 ```
 ## Demo
 [Demo]: https://remi13100.github.io/magic-square-solver/
@@ -19,7 +19,7 @@ Voir la [Demo]
 ### Javascript
 ```javascript
 
-var mss = require('@remi_bse/magic-square-solver').MagicSquareSolver;
+var mss = require('magic-square-solver').MagicSquareSolver;
 
 var square = {
     square : [ [ 2, 7, 6 ], [ 9, 5, 1 ], [ 4, 3, 8 ] ],
@@ -36,7 +36,7 @@ Output should be => Magic square : true
 ```
 ### TypeScript
 ```typescript
-import { MagicSquareSolver, IMagicSquare } from '@remi_bse/magic-square-solver';
+import { MagicSquareSolver, IMagicSquare } from 'magic-square-solver';
 
 var square : IMagicSquare = 
 {
