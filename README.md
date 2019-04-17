@@ -36,8 +36,7 @@ Output should be => Magic square : true
 ```
 ### TypeScript
 ```typescript
-import { MagicSquareSolver } from '@remi_bse/magic-square-solver';
-import { IMagicSquare } from '@remi_bse/magic-square.interface';
+import { MagicSquareSolver, IMagicSquare } from '@remi_bse/magic-square-solver';
 
 var square : IMagicSquare = 
 {
