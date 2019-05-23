@@ -1,6 +1,6 @@
 # @remi_bse/magic-square-solver
 
-[![Build Status](https://travis-ci.org/Remi13100/magic-square-solver.svg?branch=master)](https://travis-ci.org/Remi13100/magic-square-solver)
+[![Build Status](https://travis-ci.org/remiboissise/magic-square-solver.svg?branch=master)](https://travis-ci.org/remiboissise/magic-square-solver)
 
 Ce module permet de vérifier si une matrice est un carré magique ou non. Pour rappel, un carré magique est une matrice N * N dont les nombres sont distincts et compris entre 1 et (N * N) où la somme d'une ligne, d'une colonne ou d'une diagonale est toujours égale au même nombre.
 
