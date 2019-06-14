@@ -11,7 +11,7 @@ This module makes it possible to check if a matrix is a magic square or not. As 
 npm install magic-square-solver --save
 ```
 ## Demo
-[Demo]: https://remi13100.github.io/magic-square-solver/
+[Demo]: https://remiboissise.github.io/magic-square-solver/
 Voir la [Demo]
 
 ## Usage
